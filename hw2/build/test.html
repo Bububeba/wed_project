@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />                                        <!--задаем кодировку-->
+    <meta name = "author" content="MisterBenis">
+    <meta name = "description" content="Лучший общепит в мире">
+    <title> Съедобно и ладно </title>                               <!--создание заголовка-->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">    <!--создание фавикона сайта--> 
+  </head>
+
+  <body>
+    <form">
+      <h1>Форма заявки на работу в зоопарке</h1>
+      <p><i>Пожалуйста, заполните форму. Обязательные поля помечены <span style="color: red;">*</span></i></p>
+      <fieldset>
+       <legend>Контактная информация</legend>
+        <label>Имя <span style="color: red;">*</span></label>
+        <input type="text" required><br><br>
+       
+        <label>Телефон</label>
+        <input type="tel"><br><br>
+        <label>Email <span style="color: red;">*</span></label>
+        <input type="email"required>
+      </fieldset><br>
+      <fieldset>
+       <legend>Персональная информация</legend>
+        <label>Возраст<span style="color: red;">*</span></label>
+        <input type="number"required><br><br>
+        <label>Пол</label>
+        <select>
+         <option>Женщина</option>
+         <option>Мужчина</option>
+        </select><br>
+        <label>Перечислите личные качества:</label>
+        <textarea></textarea>
+      </fieldset><br>
+     
+      <fieldset>
+       <legend>Выберите ваших любимых животных</legend>
+       <label><input id="zebra" type="checkbox"> Зебра</label>
+       <label><input id="cat" type="checkbox"> Кошак</label>
+       <label><input id="anaconda" type="checkbox"> Анаконда</label>
+       <labe><input id="human" type="checkbox"> Человек</label><br><br>
+       <label><input id="elephant" type="checkbox"> Слон</label>
+       <label><input id="wildebeest" type="checkbox"> Антилопа</label>
+       <label><input id="pigeon" type="checkbox"> Голубь</label>
+       <label><input id="crab" type="checkbox"> Краб</label>
+      </fieldset><br>
+
+      <input type="submit" value="Отправить информацию">
+     </form>
+  </body>
+</html>

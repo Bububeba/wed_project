@@ -1,0 +1,23 @@
+#menu {
+    text-align: center;
+    width: 100%;
+    height: 10%;
+}
+
+#account_data {
+    background-color: yellow;
+    width: 10%;
+
+}
+
+tr{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:3ch;
+    height: 30px;
+}
+
+caption {
+    font-size:3ch;
+    text-align: center
+
+}

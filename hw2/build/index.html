@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />                                        <!--задаем кодировку-->
+    <meta name = "author" content="MisterBenis">
+    <meta name = "description" content="Лучший общепит в мире">
+    <title> Оформление заказа </title>                               <!--создание заголовка-->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">    <!--создание фавикона сайта--> 
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+
+  <body>
+    <header>
+      <table id="menu" border="2">
+         <caption>Наше меню</caption>   <!-- Подробная информация о меню -->
+        <tr>
+          <th>Мясная похлепка</th>
+          <th>Рыбные палочки</th>
+          <th>Фаршированный баклажан</th>
+          <th>Качество блюд</th>
+        </tr>
+        <tr>
+          <td rowspan="2">150р</td>
+          <td rowspan="2">230р</td>
+          <td rowspan="2">270р</td>
+          <td rowspan="3  ">Высшее</td>
+        </tr>
+        <tr> 
+        </tr>
+        <tr> 
+          <td>5ккал</td>
+          <td>3ккал</td>
+          <td>123ккал</td>
+        </tr>
+      </table>
+    </header>
+
+    <main>                                          <!--Оформление  заказа-->
+      <form>
+        <legend>Оформите заказ</legend>
+      <fieldset>
+        <label>Как к вам обращаться?</label>
+        <input class="input_button" type="text">
+
+        <label><br>Укажите ваш возраст<br></label>
+        <input class="input_button" type="date">
+
+        <label><br>Выберите Блюдо</label>
+
+        <select>
+          <option></option>
+        <optgroup label="Oсновные блюда">
+          <option>Мясная похлепка</option>
+          <option>Рыбные палочки</option>
+          <option>Фаршированный баклажан</option>
+            
+        </optgroup>
+        <optgroup label= "Особые блюда(будут позже)">
+          <option>Грех человечества</option>
+          <option>Нарушение жизнеобеспечения</option>
+          <option>Просто печеньки)))</option>
+        </optgroup>
+        <optgroup label="Вода">
+          <option>Вода</option>
+          <option>Вода</option>
+          <option>Вода</option>
+          <option>Вода</option>
+          <option>Вода</option>
+        </optgroup>
+        </select>
+
+        <label><br>Выберите способ оплаты:</label>
+        <select>
+          <optgroup>
+          <option> Банковской картой </option>
+          </optgroup>
+        </select>
+
+        <label><br>Введите номер карты и CVV код:</label>
+        <fieldset id = "account_data">
+        <label> Номер карты <input class="input_button" type="text"> </label>
+        <label>CVV <input class="input_button" type="text"></label> 
+        </fieldset>
+        
+        <label>Приложите фото паспорта со своим лицом: </label>                          <!--Не важно-->
+        <input class="input_button_photo" type="file" name="photo" accept="image/*"><br>
+
+        <button>Сделать заказ!</button>
+      </fieldset>
+    </form>
+    </main>
+
+  </body>
+</html>
