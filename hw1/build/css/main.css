@@ -1,3 +1,21 @@
-h1 {
-    color: red
+.side_info{
+    font-size: 20px;
+    /* font-style: oblique; */
+    font-family: "Verdana";
+    background-color: yellow;
+}
+
+#menu {
+    font-size: 40px;
+    color: black;
+}
+
+header{
+    font-size: 23px;
+    font-family: "Verdana";
+    color: violet;
+}
+
+a[href]{
+    background-color: blue;
 }

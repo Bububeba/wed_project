@@ -1,0 +1,60 @@
+/* .box p {
+    color: red;
+} */
+
+/* div > p {
+    background-color: red;
+} */
+
+/* div ~ p {
+    background-color: red;
+} */
+/* 
+div + p {
+    background-color: lightblue;
+} */
+
+/* 
+
+span, div, em {
+    padding: 5px;
+    border: 1px solid green;
+    display: inline-block;
+    margin-bottom: 3px;
+  }
+.first span:nth-child(2n + 1),
+.second span:nth-child(2n + 1){
+    background-color: lime;
+}
+
+h1::before {content: url(https://oir.mobi/uploads/posts/2020-02/1581996389_2-p-veselie-zhivotnie-4.jpg);} 
+
+a::after {   
+    content: url(https://oir.mobi/uploads/posts/2020-02/1581996389_2-p-veselie-zhivotnie-4.jpg);  
+}
+
+div::first-line { 
+    color: red;   
+}  */
+
+#special{
+    background-color: yellow;
+}
+
+.alert{
+    border: 1px solid black;
+}
+
+.stop.alert{
+    background-color: red;
+}
+
+.go.alert{
+    background-color: green;
+} 
+
+ul > li:first-child{
+    background-color: blue;
+}
+
+

@@ -1,4 +1,5 @@
 #menu {
+    background: url("../img/menu_background.jpg") repeat-x center;
     text-align: center;
     width: 100%;
     height: 10%;
@@ -10,7 +11,12 @@
 
 }
 
-tr{
+.Kkal{
+    background: url("../img/kkal_background.jpg") repeat-x center;
+    color: aliceblue;
+}
+
+tr{   
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size:3ch;
     height: 30px;
@@ -18,6 +24,13 @@ tr{
 
 caption {
     font-size:3ch;
-    text-align: center
+    text-align: center;
+}
 
+input[type="file"]{
+    background-color: red;
+}
+
+button{
+    background-color: red;
 }
