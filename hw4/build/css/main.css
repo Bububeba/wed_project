@@ -92,13 +92,15 @@ li{
 
 #aside_{
     width: 220px; /* 290px */
-    margin: 15px 0px;
-    padding: 20px;
+    padding: 15px 0px;
+    margin: 20px;
     background-color: burlywood;
+    float: left;
 }
 
 #footer_{
     text-align: center;
-    padding: 20px;
+    margin: 20px;
     border-top  : 2px solid black;
+    clear: both;
 }

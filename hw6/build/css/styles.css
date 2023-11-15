@@ -1,0 +1,66 @@
+header{
+    background: url("../img/sin_of_mankind.png") no-repeat center;
+    /* height: 100px; */
+    position: relative;
+    background-color: blue;
+    z-index: 0;
+}
+
+header::after{
+    content: "";
+    position: absolute;
+    /* inset: 0; */
+    background-color: brown;
+    z-index: 1;
+
+}
+
+body{
+    height: 3000px;
+}
+
+.glob_div{
+    display: inline-block;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    color: white;
+    text-align: center;
+}
+
+.another_div{
+    width: 500px;
+    height: 1000px;
+    overflow: scroll;
+    padding-left: 150px;
+}
+
+.another_div_in{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    color: white;
+}
+    
+dt{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    margin: 1em 0;
+}
+
+#d1{
+    position: relative;
+    inset: 10px 15px 20px;
+    background-color: blue;
+}
+
+#d6{
+    position: fixed;
+    top: 80px;
+    right: 10px;
+    background-color: blueviolet;
+}
