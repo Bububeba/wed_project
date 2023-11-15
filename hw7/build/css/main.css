@@ -1,0 +1,38 @@
+.carousel{
+    height: 400px;
+    width: 400px;
+}
+
+.carousel-item{
+    height: 300px;
+    width: 300px;
+}
+
+.sr-only{
+  
+    color: black;
+}
+
+.accordion-button{
+    height: 100px;
+    background-color: antiquewhite;
+}
+
+.overflow-auto {
+    max-height: 400px;
+    width: 400px;
+    border: 4px white solid;
+    border-radius: 10px;
+    text-align: center;
+    font-style: italic;
+    font-family: Verdana;
+    background: white;
+}
+
+.btn{
+    width: 200px;
+}
+
+body{
+    height: 1800px;
+}
